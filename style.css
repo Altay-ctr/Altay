@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray; /* начальный фон */
+    transition: background-color 0.3s;
+  }
+  
+  #counter {
+    font-size: 80px;
+    font-weight: bold;
+    color: black; /* начальный цвет цифр */
+    transition: color 0.3s;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  button {
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #222;
+    color: white;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #444;
+  }
